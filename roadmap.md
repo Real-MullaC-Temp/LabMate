@@ -13,14 +13,9 @@ The goal: make network device setup **simple, fast, and approachable** for CCNA 
 - [ ] Run `show ip int brief` and display output
 - [ ] Rich console output for better readability
 - [ ] Build standalone executable with **PyInstaller**
-
----
-
-## 🚧 v0.2.0 — Interface & CLI Tab
-
 - [ ] Add **Textual TUI** with tabbed layout:
-  - CLI Tab (manual commands)
-  - Interfaces Tab (view & configure interfaces)
+  - [ ] CLI Tab (manual commands)
+  - [ ] Interfaces Tab (view & configure interfaces)
 - [ ] Persistent device profile (save host/username locally)
 - [ ] Show commands being executed in bottom console log
 - [ ] Basic error handling for wrong login / timeout
@@ -28,7 +23,7 @@ The goal: make network device setup **simple, fast, and approachable** for CCNA 
 
 ---
 
-## 🔐 v0.3.0 — ACL Management
+## 🔐 v0.2.0 — ACL Management
 
 - [ ] Add **ACL Tab**:
   - List existing ACLs
@@ -39,7 +34,7 @@ The goal: make network device setup **simple, fast, and approachable** for CCNA 
 
 ---
 
-## 🧰 v0.4.0 — Usability & Polish
+## 🧰 v0.3.0 — Usability & Polish
 
 - [ ] Keyboard navigation & hotkeys
 - [ ] Search/filter for interfaces & ACLs
@@ -49,7 +44,7 @@ The goal: make network device setup **simple, fast, and approachable** for CCNA 
 
 ---
 
-## 🌐 v0.5.0 — Beyond Single Device
+## 🌐 v0.4.0 — Beyond Single Device
 
 - [ ] Multi-device support (switch between devices in tabs)
 - [ ] Bulk interface changes
